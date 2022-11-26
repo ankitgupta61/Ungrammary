@@ -1,0 +1,115 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #f1fcfe, #ffffff);
+  position: relative;
+}
+.container {
+  width: 85.6%;
+  height: 62%;
+  position: absolute;
+  top: 13.4%;
+  left: 14.4%;
+  border-left: 10px solid #5eb98b;
+}
+.companyName {
+  position: absolute;
+  top: 4.8%;
+  left: 16.71%;
+  width: 359px;
+  height: 148px;
+  /* UI Properties */
+  background: transparent url("/src/Images/Artboard\ 4@2x.png") 0% 0% no-repeat
+    padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+}
+
+.title {
+  position: absolute;
+  top: 44.08%;
+  left: 18.02%;
+  /* width: 594px;
+  height: 56px; */
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    10px / var(--unnamed-line-spacing-30) var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1a202c);
+  text-align: left;
+  font: normal normal 600 25px/17px Poppins;
+  letter-spacing: 0px;
+  color: #1a202c;
+  opacity: 1;
+}
+
+.details1 {
+  position: absolute;
+  top: 54.15%;
+  left: 18.02%;
+  width: 43%;
+  height: 6%;
+  overflow: hidden;
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-24) / 36px var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1a202c);
+  text-align: left;
+  font: normal normal 600 15px/20px Poppins;
+  letter-spacing: 0px;
+  color: #1a202c;
+  opacity: 1;
+}
+
+.details2 {
+  position: absolute;
+  top: 62.75%;
+  left: 18.02%;
+  /* margin-top: 5%; */
+  /* width: 27.5%;
+  height: 33px; */
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-30)
+    var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1a202c);
+  text-align: left;
+  font: normal normal 600 15px/18px Poppins;
+  letter-spacing: 0px;
+  color: #1a202c;
+  opacity: 1;
+}
+
+.details3 {
+  position: absolute;
+  top: 68%;
+  left: 18.02%;
+  width: 654px;
+  height: 55px;
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-18) / var(--unnamed-line-spacing-30)
+    var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1a202c);
+  text-align: left;
+  font: normal normal 600 10px/18px Poppins;
+  letter-spacing: 0px;
+  color: #1a202c;
+  opacity: 1;
+}
+
+.arrow {
+  position: absolute;
+  top: 25%;
+  left: 70%;
+  translate: -50%, -50%;
+  font-size: 200px;
+  color: #5eb98b;
+  width: 32.6%;
+  height: 32.6%;
+  cursor: pointer;
+  opacity: 1;
+}
